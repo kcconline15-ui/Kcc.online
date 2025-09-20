@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kcc.online Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="register_box">
+    <div>
+      <form id="institute_name">
+        <div>
+          <label class="label_txt">&#42;Institute name:</label>
+          
+        </div>
+        <div>
+          <input class="txt_css" type="text" required  placeholder="Enter your Name">
+
+        </div>
+      </form>
+    </div>
+    <div>
+      <form id="address">
+        <div>
+          <label class="label_txt">&#42;Institute Address Line:</label>
+
+        </div>
+        <div>
+          <input class="txt_css" type="text" required placeholder="Enter your Address">
+
+        </div>
+      </form>
+
+    </div>
+    <div>
+      <form id="email_address">
+        <div>
+          <label class="label_txt">&#42;Email Address:</label>
+
+        </div>
+        <div>
+          <input class="txt_css" type="email"  placeholder="Enter your Email" required>
+        </div>
+      </form>
+
+    </div>
+    <div>
+      <form id="Mob_num1">
+        <div>
+          <label class="label_txt">&#42;Enter your number:</label>
+
+        </div>
+        <div>
+
+          <input class="txt_css" type="text" required placeholder="Enter your Mobile Number">
+        </div>
+      </form>
+
+    </div>
+    <div>
+      <form id="mob_num2">
+        <div>
+          <label class="label_txt"> Refrence Number:</label>
+
+        </div>
+        <div>
+          <input class="txt_css" type="text" placeholder="Enter Phone Number" required>
+
+        </div>
+      </form>
+
+    </div>
+    <div>
+      <div>
+
+        <label class="label_txt" for="std_select">Select Standard :</label>
+      </div>
+
+      
+      <select class="list_std"  id="std_select" name="dropdown"  >
+        <option value="std 1">Std 1</option>
+        <option value="Std 2">Std 2</option>
+        <option value="Std 3" >Std 3</option>
+        <option value="Std 4">Std 4</option>
+        <option value="Std 5">Std 5</option>
+        <option value="Std 6">Std 6</option>
+        <option value="Std 7">Std 7</option>
+        <option value="Std 8">Std 8</option>
+        <option value="Std 9">Std 9</option>
+        <option value="Std 10">Std 10</option>
+        <option value="Std 11">Std 11</option>
+        <option value="Std 12">Std 12</option>
+  
+      </select>
+    </div>
+    <div>
+      <form id="Boards">
+        <div>
+          <label class="label_txt" for="Boards"> Select Board:
+          </label>
+        </div>
+        <div class="checktxt_css">
+        <label><input type="checkbox" name="board" value="SSC"> SSC</label>
+        <label><input type="checkbox" name="board" value="CBSE"> CBSE</label>
+        <label><input type="checkbox" name="board" value="ICSE"> ICSE</label>
+        <label><input type="checkbox" name="board" value="ISCE"> ISCE</label>
+        </div>
+      </form>
+    </div>
+   <div>
+     <p class="instruct">Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.</p>
+
+   </div>
+   <div>
+     <form id="password">
+      <div>
+        <label class="label_txt" for="passwprd">Enter a Password:</label>
+
+      </div>
+      <div>
+        <input class="txt_css" type="password" 
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+        placeholder="Create your Password" required >
+
+      </div>
+     </form>
+
+   </div>
+   <div>
+     <form id="confirm_password">
+      <div>
+        <label class="label_txt" for="confirm_password">Confirm Password:</label>
+
+      </div>
+      <div>
+        <input class="txt_css" type="password" placeholder="Confirm your Password" required>
+
+      </div>
+     </form>
+
+   </div>
+    <div>
+      <button class="btn_css">SUBMIT</button>
+
+    </div>
+    <div>
+      <p class="heading2">Already Have An Account? <a href="inst_login.html"><b>Login</b></p></a>
+
+    </div>
+   
+  </div>
+</body>
+</html>

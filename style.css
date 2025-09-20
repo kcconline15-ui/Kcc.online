@@ -1,0 +1,181 @@
+
+
+/* Styling for Institutte Login page  */
+.Institute_loginbox {
+  max-width: 40rem;
+  height: 39rem;
+  margin: 40px auto;
+  padding: 32px;
+  background: url('bgimage.jpg') center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+
+.register_box{
+  max-width: 50rem;
+  height: 100rem;
+  margin: 40px auto;
+  padding: 32px;
+  background: url('bgimage.jpg') center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.label_txt{
+  display: block;
+  margin-top: 3rem;
+  margin-right: 20rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.txt_css{
+  width:18rem;
+  padding: 16px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border: 1px solid #ed0505;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.heading1{
+  color: #e28aed;
+  font-size: 10px;
+}
+
+.checktxt_css{
+  margin-left: 2rem;
+  color: rgb(72, 0, 255);
+  
+}
+
+.list_std{
+  width: 5rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  margin-top: 1.5;
+  margin-left: 2rem;
+  padding: 0.3rem;
+  
+}
+.btn_css{
+  margin-top: 3rem;
+  margin-left: 20rem;
+  width: 7rem;
+  height: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border-color: rgb(246, 240, 240);
+  background-color: rgb(208, 153, 231);
+}
+.btn_css:hover{
+  border-color:   rgb(208, 153, 231); 
+  background-color:   rgb(240, 246, 244);
+  transition: 0.3s;
+}
+.heading2{
+  margin-top: 5rem;
+}
+
+/* Stylesheet for Student Page */
+.student_login{
+   max-width: 40rem;
+  height: 39rem;
+  margin: 40px auto;
+  padding: 32px;
+  background-color:  #9f8aed;;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  text-align: center;
+}
+.stdlabel_txt{
+  display: block;
+  margin-top: 5rem;
+  margin-right: 20rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f5f0f0;
+}
+
+.std_heading1{
+  color: rgb(0, 2, 3);
+  font-size: 0.7rem;
+
+}
+.stdtxt_css{
+  width:18rem;
+  padding: 16px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border: 1px solid #080008;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #100a10;
+  color: #f5f0f0;
+}
+
+.stdbtn_css{
+ margin-top: 3rem;
+ margin-left: 10rem;
+ width: 7rem;
+ height: 2rem;
+ cursor: pointer;
+ border-radius: 0.5rem;
+ border-color: rgb(237, 6, 6);
+ background-color: rgb(148, 232, 4);
+}
+.stdbtn_css:hover{
+  border-color:   rgb(111, 127, 196); 
+ background-color:   rgb(202, 237, 6);
+ 
+ transition: 0.3s;
+}
+
+
+
+
+.student_registerbox{
+  max-width: 50rem;
+  height: 60rem;
+  margin: 40px auto;
+  padding: 32px;
+  background-color: #9f8aed;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  text-align: center;
+}
+.reghecktxt_css{
+  margin-left: 6rem;
+  color: rgb(72, 0, 255);
+}
+
+.regstdbtn_css{
+display: block;
+    margin-top: -14rem;
+    margin-left: 46rem;
+ width: 7rem;
+ height: 2rem;
+ cursor: pointer;
+ border-radius: 0.5rem;
+ border-color: rgb(237, 6, 6);
+ background-color: rgb(148, 232, 4);
+}
+.regstdbtn_css:hover{
+  border-color:   rgb(111, 127, 196); 
+ background-color:   rgb(202, 237, 6);
+ 
+ transition: 0.3s;
+}
+
+.regheading2{
+  margin-top: 5rem;
+  margin-left: 38rem;
+}
+
+.stdheading2{
+  margin-top: 4rem;
+}

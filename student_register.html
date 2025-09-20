@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kcc.online Student Regsiter form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="student_registerbox">
+    <div>
+      <form id="student_name">
+        <div>
+          <label class="stdlabel_txt">Student Name:</label>
+          <div>
+            <input class="stdtxt_css" type="text" required  placeholder="Enter your Name">
+          </div>
+        </div>
+      </form>
+      <div>
+        <form id="Student_parents">
+          <div>
+            <label class="stdlabel_txt">Parents Name:</label>
+            <div>
+              <input class="stdtxt_css" type="text" placeholder="Parents Name " required>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div>
+       <label class="stdlabel_txt">Select Your Standard:</label>
+       <div>
+       <select class="stdtxt_css" name="standard" required>
+        <option value="" disabled selected>Select your option</option>
+        <option value="1st">1st</option>
+        <option value="2nd">2nd</option>
+        <option value="3rd">3rd</option>
+        <option value="4th">4th</option>
+        <option value="5th">5th</option>
+        <option value="6th">6th</option>
+        <option value="7th">7th</option>
+        <option value="8th">8th</option>
+        <option value="9th">9th</option>
+        <option value="10th">10th</option>
+        <option value="11th">11th</option>
+        <option value="12th">12th</option>
+       </select>
+      </div>
+      </div>
+    </div>
+    <div>
+      <form id="Boards">
+        <div>
+          <label class="stdlabel_txt" for="Boards"> Select Board:
+          </label>
+        </div>
+        <div class="checktxt_css">
+        <label><input type="checkbox" name="board" value="SSC"> SSC</label>
+        <label><input type="checkbox" name="board" value="CBSE"> CBSE</label>
+        <label><input type="checkbox" name="board" value="ICSE"> ICSE</label>
+        <label><input type="checkbox" name="board" value="ISCE"> ISCE</label>
+        </div>
+      </form>
+    </div>
+     <div>
+     <label class="stdlabel_txt" for="Boards"> Select Medium:
+          </label>
+        </div>
+        <div class="regchecktxt_css">
+        <label><input type="checkbox" name="board" value="English"> English </label>
+        <label><input type="checkbox" name="board" value="Hindi"> Hindi</label>
+        <label><input type="checkbox" name="board" value="Marathi"> Marathi </label>
+        <label><input type="checkbox" name="board" value="Gujrati"> Gujrati </label>
+        </div>
+      </form>
+     </div>
+     <div>
+      <button class="regstdbtn_css">
+        SUBMIT
+      </button>
+     </div>
+<div>
+  <p class="regheading2">Already Have An Account? <a href="student_login.html"><b>Login</b></p></a>
+</div>
+
+
+  </div>
+</body>
+</html>
